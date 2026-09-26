@@ -1,0 +1,16 @@
+# Basic security
+Options -Indexes
+
+# Allow PHP files
+AddHandler application/x-httpd-php .php
+
+# Rewrite all requests to index.php
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /AI/pelacakduit/public/
+    
+    # If the requested file or directory does not exist
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>

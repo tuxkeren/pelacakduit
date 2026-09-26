@@ -1,0 +1,12 @@
+# Database
+/database/*.db
+/database/*.sqlite
+
+# Web Server
+/public/assets/uploads/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.log
