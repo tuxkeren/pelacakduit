@@ -5,6 +5,18 @@ Aplikasi CRUD sederhana untuk pencatatan **uang masuk (pemasukan)** dan **uang k
 - **TailwindCSS** via CDN (tanpa build step)
 - **SQLite** (default, jalan langsung) / **MariaDB/MySQL** (production)
 
+## ⚠️ Disclaimer
+
+**Program ini dibuat untuk tujuan belajar PHP OOP dan TIDAK memiliki fitur autentikasi/login.**
+
+- ❌ Tidak ada sistem login/user management
+- ❌ Tidak ada session/cookies untuk autentikasi
+- ❌ Semua data dapat diakses siapa saja yang membuka URL
+- ✅ Cocok untuk belajar konsep MVC, OOP, dan CRUD
+- ✅ Untuk pembelajaran dan development lokal
+
+**Jangan gunakan untuk data sensitif atau production tanpa menambahkan layer autentikasi terlebih dahulu!**
+
 ## 🚀 Cara Menjalankan (Development)
 
 ### Opsi 1: PHP Built-in Server + SQLite (Langsung jalan)
